@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:pawsnplace/pages/home.dart';
 
 void main() {
@@ -14,8 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Paws N Place',
       theme: ThemeData(
+         scaffoldBackgroundColor: const Color.fromARGB(255, 247, 247, 247),
         fontFamily: 'Buenard',
         primarySwatch: Colors.blue,
+        
       ),
       home: Home(),
     );
